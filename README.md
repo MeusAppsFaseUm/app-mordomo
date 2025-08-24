@@ -1,6 +1,6 @@
 # mordomo
 
-A new Flutter project.
+app de agendamento para lembrar tarefas no dia a dia.
 
 ## Getting Started
 
