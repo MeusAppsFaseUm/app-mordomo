@@ -1,0 +1,55 @@
+name: mordomo
+description: "App mordomo estilo checklist com temas personalizáveis"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  permission_handler: ^11.3.1
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  json_annotation: ^4.8.1
+  url_launcher: ^6.3.0
+  # Adicione estas dependências úteis:
+  shared_preferences: ^2.2.2 # Para salvar configurações como tema
+  intl: ^0.20.2 # Para formatação de datas
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.3 # NOVO - Para timezone  # Para notificações (se quiser implementar)
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.7
+  hive_generator: ^2.0.1
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+  # Adicione ícones personalizados se quiser:
+  # assets:
+  #   - assets/icons/
+  #   - assets/images/
+
+  # Fontes personalizadas (opcional):
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
